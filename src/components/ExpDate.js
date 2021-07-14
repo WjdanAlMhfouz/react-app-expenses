@@ -1,4 +1,5 @@
 import './ExpDate.css'
+
 function ExpDate(props){
   // object
   const month = props.date.toLocaleString('en-EG', {month: 'long'});

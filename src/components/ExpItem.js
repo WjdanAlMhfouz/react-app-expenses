@@ -16,15 +16,12 @@ function ExpItem(props) {
     <div>
       <div className='item'>
         <ExpDate date={props.date}/>
-        <div className='item__title'>{props.title}</div>
         <div className='item__dec'>
+          <div className='item__title'>{props.title}</div>
           <div className='item__price'>${props.amount}</div>
         </div>
-        {/*<button onClick={clickChange}>Change</button>*/}
       </div>
     </div>
   );
 }
-
-//video 03 - 12
 export default ExpItem;

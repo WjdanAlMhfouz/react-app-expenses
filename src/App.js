@@ -5,7 +5,7 @@ import Exp from "./components/Exp";
 import React, {useState} from "react";
 
 
-  //array of object
+//array of object
   const INI_EXPENSES = [{
     title: 'Grocery', amount: '260', date: new Date(2021, 4, 1)
   },
