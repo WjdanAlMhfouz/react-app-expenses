@@ -1,5 +1,6 @@
 // components in react is javascript function
 import React,{useState} from "react";
+import ExpFilter from "./InputForm/ExpFilter";
 import './ExpItem.css';
 import ExpDate from "./ExpDate";
 
@@ -14,16 +15,16 @@ function ExpItem(props) {
     console.log(title)
   }
   return (
+<div>
     <div className='item'>
       <ExpDate date={props.date}/>
-
       <div className='item-title'>{title}</div>
-
       <div className='item__dec'>
         <div className='item__price'>${props.amout}</div>
       </div>
       <button onClick={clickChange}>Change</button>
     </div>
+  </div>
   );
 }
 
